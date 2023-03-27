@@ -1,0 +1,110 @@
+/**  Form card **/
+
+.rating-card {
+    color:  hsl(0, 0%, 100%);
+    background-color:  #1f2630;
+    width: 350px;
+    border-radius: 30px;
+    padding: 30px
+}
+
+.card-star {
+    background-color: #292d34;
+    padding: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-weight: 400;
+}
+
+.card-paragraph {
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-around;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-buttons button {
+    color: hsl(216, 12%, 54%);
+    background-color: #262f38;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.card-buttons button:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.card-buttons button:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.card-submit {
+    width: 100%;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.card-submit:hover {
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+/** Thank you card **/
+.thank-you-card {
+    color:  hsl(0, 0%, 100%);
+    background-color:  #171e28;
+    width: 350px;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thank-you-image {
+    height: 125px;
+    width: 175px;
+    margin: 10px;
+}
+
+.thank-you-rating {
+    width: 175px;
+    padding: 10px;
+    background-color: #263036;
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.thank-you-title {
+    font-weight: 700;
+    margin: 0;
+}
+
+.thank-you-paragraph {
+    width: 325px;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
